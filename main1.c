@@ -1,3 +1,5 @@
+/* In this code we use the struct as a data structure for multiplying polinomials */
+
 #include"main.h"
 
 
