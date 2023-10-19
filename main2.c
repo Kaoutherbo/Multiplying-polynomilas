@@ -33,8 +33,8 @@ int getSize(char *s)
     int size;
     printf(s);
     scanf("%d",&size);
-    if(size <= 0){
-        printf("Error,please Enter a valid size ");
+    if(size < 0){
+        printf("Error,please Enter a valid degree ");
         getSize(s);
     }else{
         return size;
